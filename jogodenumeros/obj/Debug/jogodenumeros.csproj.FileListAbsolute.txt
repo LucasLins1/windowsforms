@@ -1,0 +1,10 @@
+C:\Users\lucas.flins\source\repos\jogodenumeros\bin\Debug\jogodenumeros.exe.config
+C:\Users\lucas.flins\source\repos\jogodenumeros\bin\Debug\jogodenumeros.exe
+C:\Users\lucas.flins\source\repos\jogodenumeros\bin\Debug\jogodenumeros.pdb
+C:\Users\lucas.flins\source\repos\jogodenumeros\obj\Debug\jogodenumeros.csproj.AssemblyReference.cache
+C:\Users\lucas.flins\source\repos\jogodenumeros\obj\Debug\jogodenumeros.frmJogodeNumeros.resources
+C:\Users\lucas.flins\source\repos\jogodenumeros\obj\Debug\jogodenumeros.Properties.Resources.resources
+C:\Users\lucas.flins\source\repos\jogodenumeros\obj\Debug\jogodenumeros.csproj.GenerateResource.cache
+C:\Users\lucas.flins\source\repos\jogodenumeros\obj\Debug\jogodenumeros.csproj.CoreCompileInputs.cache
+C:\Users\lucas.flins\source\repos\jogodenumeros\obj\Debug\jogodenumeros.exe
+C:\Users\lucas.flins\source\repos\jogodenumeros\obj\Debug\jogodenumeros.pdb
