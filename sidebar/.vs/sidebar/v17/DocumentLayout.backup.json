@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\lucas.flins\\source\\repos\\sidebar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A6D0D6F-8F46-4CCD-9D4D-9A0B0444D889}|sidebar.csproj|c:\\users\\lucas.flins\\source\\repos\\sidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A6D0D6F-8F46-4CCD-9D4D-9A0B0444D889}|sidebar.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6A6D0D6F-8F46-4CCD-9D4D-9A0B0444D889}|sidebar.csproj|c:\\users\\lucas.flins\\source\\repos\\sidebar\\frmcomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6D0D6F-8F46-4CCD-9D4D-9A0B0444D889}|sidebar.csproj|solutionrelative:frmcomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A6D0D6F-8F46-4CCD-9D4D-9A0B0444D889}|sidebar.csproj|c:\\users\\lucas.flins\\source\\repos\\sidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{6A6D0D6F-8F46-4CCD-9D4D-9A0B0444D889}|sidebar.csproj|solutionrelative:frmcomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A6D0D6F-8F46-4CCD-9D4D-9A0B0444D889}|sidebar.csproj|c:\\users\\lucas.flins\\source\\repos\\sidebar\\frmcomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A6D0D6F-8F46-4CCD-9D4D-9A0B0444D889}|sidebar.csproj|solutionrelative:frmcomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A6D0D6F-8F46-4CCD-9D4D-9A0B0444D889}|sidebar.csproj|c:\\users\\lucas.flins\\source\\repos\\sidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A6D0D6F-8F46-4CCD-9D4D-9A0B0444D889}|sidebar.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "frmComercial.cs",
               "DocumentMoniker": "C:\\Users\\lucas.flins\\source\\repos\\sidebar\\frmComercial.cs",
               "RelativeDocumentMoniker": "frmComercial.cs",
               "ToolTip": "C:\\Users\\lucas.flins\\source\\repos\\sidebar\\frmComercial.cs",
               "RelativeToolTip": "frmComercial.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T12:39:04.403Z",
               "EditorCaption": ""
@@ -61,14 +61,14 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\lucas.flins\\source\\repos\\sidebar\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T11:57:31.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lucas.flins\\source\\repos\\sidebar\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
