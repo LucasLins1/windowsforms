@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastroDeCliente));
             this.panelTopo = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.tbControl = new System.Windows.Forms.TabControl();
@@ -41,10 +42,11 @@
             this.txtNomeCompleto = new System.Windows.Forms.TextBox();
             this.lblNomeCompleto = new System.Windows.Forms.Label();
             this.tbConsulta = new System.Windows.Forms.TabPage();
+            this.lstCliente = new System.Windows.Forms.ListView();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.lstCliente = new System.Windows.Forms.ListView();
+            this.btnNovoCliente = new System.Windows.Forms.Button();
             this.panelTopo.SuspendLayout();
             this.tbControl.SuspendLayout();
             this.tbCadastro.SuspendLayout();
@@ -96,7 +98,7 @@
             this.tbCadastro.Location = new System.Drawing.Point(4, 29);
             this.tbCadastro.Name = "tbCadastro";
             this.tbCadastro.Padding = new System.Windows.Forms.Padding(3);
-            this.tbCadastro.Size = new System.Drawing.Size(722, 216);
+            this.tbCadastro.Size = new System.Drawing.Size(722, 258);
             this.tbCadastro.TabIndex = 0;
             this.tbCadastro.Text = "Dados de Clientes";
             this.tbCadastro.UseVisualStyleBackColor = true;
@@ -183,9 +185,20 @@
             this.tbConsulta.Text = "Consulta";
             this.tbConsulta.UseVisualStyleBackColor = true;
             // 
+            // lstCliente
+            // 
+            this.lstCliente.HideSelection = false;
+            this.lstCliente.Location = new System.Drawing.Point(20, 67);
+            this.lstCliente.MultiSelect = false;
+            this.lstCliente.Name = "lstCliente";
+            this.lstCliente.Size = new System.Drawing.Size(680, 171);
+            this.lstCliente.TabIndex = 2;
+            this.lstCliente.UseCompatibleStateImageBehavior = false;
+            this.lstCliente.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.lstCliente_ItemSelectionChanged);
+            // 
             // btnPesquisar
             // 
-            this.btnPesquisar.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnPesquisar.BackColor = System.Drawing.Color.DarkBlue;
             this.btnPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPesquisar.ForeColor = System.Drawing.Color.White;
             this.btnPesquisar.Location = new System.Drawing.Point(247, 12);
@@ -208,7 +221,7 @@
             this.btnSalvar.BackColor = System.Drawing.Color.SeaGreen;
             this.btnSalvar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(38, 419);
+            this.btnSalvar.Location = new System.Drawing.Point(219, 419);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(136, 50);
             this.btnSalvar.TabIndex = 2;
@@ -216,20 +229,28 @@
             this.btnSalvar.UseVisualStyleBackColor = false;
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
-            // lstCliente
+            // btnNovoCliente
             // 
-            this.lstCliente.HideSelection = false;
-            this.lstCliente.Location = new System.Drawing.Point(20, 67);
-            this.lstCliente.Name = "lstCliente";
-            this.lstCliente.Size = new System.Drawing.Size(680, 171);
-            this.lstCliente.TabIndex = 2;
-            this.lstCliente.UseCompatibleStateImageBehavior = false;
+            this.btnNovoCliente.BackColor = System.Drawing.Color.Cyan;
+            this.btnNovoCliente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNovoCliente.ForeColor = System.Drawing.Color.Black;
+            this.btnNovoCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnNovoCliente.Image")));
+            this.btnNovoCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNovoCliente.Location = new System.Drawing.Point(34, 419);
+            this.btnNovoCliente.Name = "btnNovoCliente";
+            this.btnNovoCliente.Size = new System.Drawing.Size(179, 50);
+            this.btnNovoCliente.TabIndex = 3;
+            this.btnNovoCliente.Text = "Novo Cadastro";
+            this.btnNovoCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnNovoCliente.UseVisualStyleBackColor = false;
+            this.btnNovoCliente.Click += new System.EventHandler(this.btnNovoCliente_Click);
             // 
             // frmCadastroDeCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 537);
+            this.Controls.Add(this.btnNovoCliente);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.tbControl);
             this.Controls.Add(this.panelTopo);
@@ -265,6 +286,7 @@
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.ListView lstCliente;
+        private System.Windows.Forms.Button btnNovoCliente;
     }
 }
 
